@@ -1,4 +1,4 @@
 School
 ======
 
-Repositories for school
+Repositories for school homework assignments and projects.
