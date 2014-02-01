@@ -29,6 +29,8 @@
 		3CBE1DE3189CC57600C3B486 /* PointScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE1DE2189CC57600C3B486 /* PointScore.m */; };
 		3CBE1DE6189CC89B00C3B486 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE1DE5189CC89B00C3B486 /* Set.m */; };
 		3CBE1DE9189CC8FD00C3B486 /* SetScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE1DE8189CC8FC00C3B486 /* SetScore.m */; };
+		3CBE1DEC189CCF2600C3B486 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE1DEB189CCF2600C3B486 /* Match.m */; };
+		3CBE1DEF189CCF6600C3B486 /* MatchScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE1DEE189CCF6600C3B486 /* MatchScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,10 @@
 		3CBE1DE5189CC89B00C3B486 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
 		3CBE1DE7189CC8FC00C3B486 /* SetScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetScore.h; sourceTree = "<group>"; };
 		3CBE1DE8189CC8FC00C3B486 /* SetScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetScore.m; sourceTree = "<group>"; };
+		3CBE1DEA189CCF2600C3B486 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		3CBE1DEB189CCF2600C3B486 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		3CBE1DED189CCF6600C3B486 /* MatchScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchScore.h; sourceTree = "<group>"; };
+		3CBE1DEE189CCF6600C3B486 /* MatchScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,10 @@
 				3CBE1DE5189CC89B00C3B486 /* Set.m */,
 				3CBE1DE7189CC8FC00C3B486 /* SetScore.h */,
 				3CBE1DE8189CC8FC00C3B486 /* SetScore.m */,
+				3CBE1DEA189CCF2600C3B486 /* Match.h */,
+				3CBE1DEB189CCF2600C3B486 /* Match.m */,
+				3CBE1DED189CCF6600C3B486 /* MatchScore.h */,
+				3CBE1DEE189CCF6600C3B486 /* MatchScore.m */,
 			);
 			path = "Tennis Files";
 			sourceTree = "<group>";
@@ -300,12 +310,14 @@
 				3CBE1DE9189CC8FD00C3B486 /* SetScore.m in Sources */,
 				3CBE1DD4189CBDE900C3B486 /* Player.m in Sources */,
 				3CBE1DB3189CBD8B00C3B486 /* ViewController.m in Sources */,
+				3CBE1DEC189CCF2600C3B486 /* Match.m in Sources */,
 				3CBE1DE3189CC57600C3B486 /* PointScore.m in Sources */,
 				3CBE1DD7189CBEB700C3B486 /* Score.m in Sources */,
 				3CBE1DDA189CC09900C3B486 /* Competition.m in Sources */,
 				3CBE1DE0189CC40100C3B486 /* GameScore.m in Sources */,
 				3CBE1DAD189CBD8B00C3B486 /* AppDelegate.m in Sources */,
 				3CBE1DDD189CC1C500C3B486 /* Game.m in Sources */,
+				3CBE1DEF189CCF6600C3B486 /* MatchScore.m in Sources */,
 				3CBE1DE6189CC89B00C3B486 /* Set.m in Sources */,
 				3CBE1DA9189CBD8B00C3B486 /* main.m in Sources */,
 			);
@@ -516,6 +528,7 @@
 				3CBE1DCD189CBD8B00C3B486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CBE1DCE189CBD8B00C3B486 /* Build configuration list for PBXNativeTarget "TennisInObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				3CBE1DD0189CBD8B00C3B486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
