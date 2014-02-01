@@ -1,14 +1,14 @@
 //
-//  SSUAppDelegate.m
+//  AppDelegate.m
 //  TennisInObjectiveC
 //
 //  Created by Stephen Kyles on 1/31/14.
 //  Copyright (c) 2014 Stephen Kyles. All rights reserved.
 //
 
-#import "SSUAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation SSUAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

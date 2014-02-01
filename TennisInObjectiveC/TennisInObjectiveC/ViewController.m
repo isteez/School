@@ -1,18 +1,18 @@
 //
-//  SSUViewController.m
+//  ViewController.m
 //  TennisInObjectiveC
 //
 //  Created by Stephen Kyles on 1/31/14.
 //  Copyright (c) 2014 Stephen Kyles. All rights reserved.
 //
 
-#import "SSUViewController.h"
+#import "ViewController.h"
 
-@interface SSUViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation SSUViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

@@ -1,5 +1,5 @@
 //
-//  SSUAppDelegate.h
+//  ViewController.h
 //  TennisInObjectiveC
 //
 //  Created by Stephen Kyles on 1/31/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSUAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ViewController : UIViewController
 
 @end

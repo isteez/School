@@ -1,13 +1,13 @@
 //
-//  SSUViewController.h
+//  PointScore.h
 //  TennisInObjectiveC
 //
 //  Created by Stephen Kyles on 1/31/14.
 //  Copyright (c) 2014 Stephen Kyles. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Score.h"
 
-@interface SSUViewController : UIViewController
+@interface PointScore : Score
 
 @end
