@@ -22,14 +22,12 @@
     return self.player1Score == 3 || self.player2Score == 3;
 }
 
-/*
 -(void)addScore:(SetScore *)score
 {
-    //scores[setNumber] = (SetScore *)score;
-    //setNumber++;
-    //[score getWinner] == self.player1 ? self.player1Score++ : self.player2Score++;
+    scores[setNumber] = score;
+    setNumber++;
+    [score getWinner] == self.player1 ? self.player1Score++ : self.player2Score++;
 }
-*/
 
 -(NSString *) description
 {

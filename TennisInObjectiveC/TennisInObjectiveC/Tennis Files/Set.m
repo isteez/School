@@ -11,6 +11,7 @@
 #import "PointScore.h"
 #import "GameScore.h"
 #import "Game.h"
+#import "Player.h"
 
 @implementation Set
 

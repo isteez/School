@@ -7,8 +7,16 @@
 //
 
 #import "PointScore.h"
+#import "Player.h"
 
 @implementation PointScore
+
+-(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2
+{
+    if( (self = [super initWithFirstPlayer:p1 secondPlayer:p2   ]) == nil)
+        return nil;
+    return self;
+}
 
 -(BOOL) haveAWinner
 {
