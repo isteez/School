@@ -1,7 +1,7 @@
 School
 ======
 
-Repositories for school homework assignments and projects.
+Repositories for homework assignments and projects.
 
 - CS470
   - Project 1
