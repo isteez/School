@@ -36,7 +36,8 @@
 
         if( [setScore shouldPlayTieBreaker] ) {
             TieBreaker *tiebreaker = [[TieBreaker alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
-            [setScore addTieScore:(TieBreakerScore *)[tiebreaker play: player]];
+            TieBreakerScore *score = (TieBreakerScore *)[tiebreaker play: player];
+            [setScore addTieScore:score];
             return setScore;
         }
     }

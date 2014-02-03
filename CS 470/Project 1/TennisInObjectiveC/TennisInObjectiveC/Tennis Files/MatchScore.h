@@ -15,6 +15,7 @@
 }
 
 -(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2;
+-(void) provideSetScores:(Score *)score;
 @property (nonatomic) NSMutableArray *scores;
 
 @end

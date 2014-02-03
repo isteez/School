@@ -14,6 +14,7 @@
 {
     if( (self = [super initWithFirstPlayer:p1 secondPlayer:p2   ]) == nil)
         return nil;
+    self.scores = [[NSMutableArray alloc] init];
     return self;
 }
 
@@ -22,11 +23,20 @@
     return self.player1Score == 3 || self.player2Score == 3;
 }
 
+/*
 -(void)addScore:(Score *)score
 {
-    [self.scores addObject:score];
+    self.scores[setNumber] = (SetScore *)score;
     NSLog(@"%@", score);
-    NSLog(@"%@", self.scores);
+    NSLog(@"%d", [self.scores count]);
+    [score getWinner] == self.player1 ? self.player1Score++ : self.player2Score++;
+    setNumber++;
+}
+*/
+
+-(void)provideSetScores:(Score *)score
+{
+    self.scores[setNumber] = (SetScore *)score;
     [score getWinner] == self.player1 ? self.player1Score++ : self.player2Score++;
     setNumber++;
 }
@@ -35,11 +45,11 @@
 {
     NSLog(@"Set No.    Player A     Player B\n");
     for( int i = 0; i < setNumber; i++ ) {
-        NSLog(@"   %d          %@", i+1, self.scores[i]);
+        NSLog(@"   %d          %@", i+1, [self.scores objectAtIndex:i]);
     }
     return self.player1Score > self.player2Score ?
-    [NSString stringWithFormat:@"\n\nplayer 1 wins %d to %d\n\n", self.player1Score, self.player2Score] :
-    [NSString stringWithFormat:@"\n\nplayer 2 wins %d to %d\n\n", self.player2Score, self.player1Score];
+    [NSString stringWithFormat:@"player 1 wins %d to %d\n", self.player1Score, self.player2Score] :
+    [NSString stringWithFormat:@"player 2 wins %d to %d\n", self.player2Score, self.player1Score];
 }
 
 @end
