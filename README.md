@@ -3,4 +3,6 @@ School
 
 Repositories for school homework assignments and projects.
 
-- TennisInObjectiveC 
+- CS470
+  - Project 1
+    - TennisInObjectiveC 
