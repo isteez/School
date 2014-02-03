@@ -7,9 +7,15 @@
 //
 
 #import "Score.h"
+#import "TieBreakerScore.h"
 
 @interface SetScore : Score
+{
+    TieBreakerScore *tieScore;
+}
 
 -(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2;
+-(void) addTieScore:(TieBreakerScore *)score;
+-(BOOL) shouldPlayTieBreaker;
 
 @end

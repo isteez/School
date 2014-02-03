@@ -25,14 +25,15 @@
 -(Score *) play:(Player *)player
 {
     TieBreakerScore *tieBreakerScore = [[TieBreakerScore alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
-    PointScore *pScore =  (PointScore *) [player serveAPoint];
-    [tieBreakerScore addScore: [pScore getWinner]];
     
     bool switchTheServer = false;
     while( ! [tieBreakerScore haveAWinner] ) {
+        PointScore *pScore =  (PointScore *) [player serveAPoint];
         [tieBreakerScore addScore: [pScore getWinner]];
+        pScore = nil;
+        
         if (switchTheServer) {
-            player = [player.otherPlayer:player];
+            player = [Player otherPlayer:player];
         }
         switchTheServer = !switchTheServer;
     }

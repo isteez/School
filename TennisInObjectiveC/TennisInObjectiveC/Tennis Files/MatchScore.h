@@ -12,9 +12,9 @@
 @interface MatchScore : Score
 {
     int setNumber;
-    SetScore *scores[5];
 }
 
 -(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2;
+@property (nonatomic) NSMutableArray* scores;
 
 @end

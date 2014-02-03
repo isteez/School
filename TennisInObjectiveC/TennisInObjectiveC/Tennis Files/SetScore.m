@@ -7,6 +7,8 @@
 //
 
 #import "SetScore.h"
+#import "TieBreaker.h"
+#import "TieBreakerScore.h"
 
 @implementation SetScore
 
@@ -22,9 +24,19 @@
     return (self.player1Score >= 6 || self.player2Score >= 6) && abs( self.player1Score - self.player2Score) >= 2;
 }
 
+-(BOOL) shouldPlayTieBreaker
+{
+    return self.player1Score == 6 && self.player2Score == 6;
+}
+
+-(void) addTieScore:(TieBreakerScore *)score
+{
+    [self addScore:[score getWinner]];
+    tieScore = score;
+}
+
 -(NSString *) description
 {
-    NSLog(@"SetScore... printing begins.");
     NSLog(@"p1 score = %d", self.player1Score);
     NSLog(@"p2 score = %d", self.player2Score);
     NSLog(@"SetScore... printing ends.");

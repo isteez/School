@@ -12,6 +12,7 @@
 #import "GameScore.h"
 #import "Game.h"
 #import "Player.h"
+#import "TieBreaker.h"
 
 @implementation Set
 
@@ -31,6 +32,13 @@
         Score *score = [game play: player];
         [setScore addScore: [score getWinner]];
         score = nil;
+        player = [Player otherPlayer:player];
+
+        if( [setScore shouldPlayTieBreaker] ) {
+            TieBreaker *tiebreaker = [[TieBreaker alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
+            [setScore addTieScore:(TieBreakerScore *)[tiebreaker play: player]];
+            return setScore;
+        }
     }
     return setScore;
 }

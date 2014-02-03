@@ -7,7 +7,7 @@
 //
 
 #import "Match.h"
-#import "Game.h"
+#import "Player.h"
 #import "Score.h"
 #import "MatchScore.h"
 #import "Set.h"
@@ -28,8 +28,10 @@
     while( ! [matchScore haveAWinner] ) {
         Set *set = [[Set alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
         Score *score = [set play: player];
-        [matchScore addScore: [score getWinner]];
+        [matchScore addScore:score];
         score = nil;
+        player = [Player otherPlayer:player];
+        
     }
     return matchScore;
 }

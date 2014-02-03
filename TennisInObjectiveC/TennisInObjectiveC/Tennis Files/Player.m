@@ -49,8 +49,10 @@ BOOL debug = YES;
         exit(1);
     }
     int rand = [self getARandomNumber];
+    /*
     if( debug )
         NSLog(@"Generated random-number %d", rand);
+    */
     Score *score = [[PointScore alloc] initWithFirstPlayer:players[0] secondPlayer:players[1]];
     [score addScore: rand <= self.probabilityOfWinningAServe ? self : [Player otherPlayer:self]];
     return score;
