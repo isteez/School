@@ -15,6 +15,6 @@
 }
 
 -(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2;
-@property (nonatomic) NSMutableArray* scores;
+@property (nonatomic) NSMutableArray *scores;
 
 @end

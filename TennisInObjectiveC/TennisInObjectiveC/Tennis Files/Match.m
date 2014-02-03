@@ -28,10 +28,9 @@
     while( ! [matchScore haveAWinner] ) {
         Set *set = [[Set alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
         Score *score = [set play: player];
-        [matchScore addScore:score];
+        [matchScore addScore: score];
         score = nil;
         player = [Player otherPlayer:player];
-        
     }
     return matchScore;
 }

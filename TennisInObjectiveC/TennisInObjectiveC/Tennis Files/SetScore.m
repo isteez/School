@@ -37,13 +37,12 @@
 
 -(NSString *) description
 {
-    NSLog(@"p1 score = %d", self.player1Score);
-    NSLog(@"p2 score = %d", self.player2Score);
-    NSLog(@"SetScore... printing ends.");
-    
+    return [NSString stringWithFormat:@"%d %d", self.player1Score, self.player2Score];
+    /*
     return self.player1Score > self.player2Score ?
     [NSString stringWithFormat:@"\n\nplayer 1 wins %d to %d\n\n", self.player1Score, self.player2Score] :
     [NSString stringWithFormat:@"\n\nplayer 2 wins %d to %d\n\n", self.player2Score, self.player1Score];
+     */
 }
 
 @end
