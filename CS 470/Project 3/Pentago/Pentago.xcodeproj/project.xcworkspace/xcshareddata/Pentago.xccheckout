@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F06FBAA0-3D48-457F-B82C-61D13554B64C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pentago</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36CE8C43-C120-4F82-AB0E-2B23F64DB7AA</key>
+		<string>https://github.com/isteez/School.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CS 470/Project 3/Pentago/Pentago.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36CE8C43-C120-4F82-AB0E-2B23F64DB7AA</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/isteez/School.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36CE8C43-C120-4F82-AB0E-2B23F64DB7AA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36CE8C43-C120-4F82-AB0E-2B23F64DB7AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>School</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3E849EC-15B1-4727-BB91-F6A4DE52413D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CS470_Project4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9ABC149-9B32-4D0A-A776-C74B35D29584</key>
+		<string>https://github.com/isteez/School.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CS 470/CS470_Project4/CS470_Project4.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9ABC149-9B32-4D0A-A776-C74B35D29584</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/isteez/School.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9ABC149-9B32-4D0A-A776-C74B35D29584</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9ABC149-9B32-4D0A-A776-C74B35D29584</string>
+			<key>IDESourceControlWCCName</key>
+			<string>School</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -10,6 +10,12 @@
 #import "TieBreaker.h"
 #import "TieBreakerScore.h"
 
+@interface SetScore()
+{
+    TieBreakerScore *tieScore;
+}
+@end
+
 @implementation SetScore
 
 -(instancetype) initWithFirstPlayer: (Player *) p1 secondPlayer: (Player *) p2
@@ -37,7 +43,9 @@
 
 -(NSString *) description
 {
-    return [NSString stringWithFormat:@"%d            %d", self.player1Score, self.player2Score];
+    return tieScore == NULL ?
+    [NSString stringWithFormat:@"%d            %d", self.player1Score, self.player2Score] :
+    [NSString stringWithFormat:@"%d            %d     %@", self.player1Score, self.player2Score, tieScore];
 }
 
 @end

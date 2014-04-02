@@ -9,9 +9,6 @@
 #import "TieBreaker.h"
 #import "TieBreakerScore.h"
 #import "PointScore.h"
-#import "GameScore.h"
-#import "Score.h"
-#import "Player.h"
 
 @implementation TieBreaker
 
@@ -26,16 +23,11 @@
 {
     TieBreakerScore *tieBreakerScore = [[TieBreakerScore alloc] initWithFirstPlayer:self.player1 secondPlayer:self.player2];
     
-    bool switchTheServer = false;
     while( ! [tieBreakerScore haveAWinner] ) {
         PointScore *pScore =  (PointScore *) [player serveAPoint];
         [tieBreakerScore addScore: [pScore getWinner]];
         pScore = nil;
-        
-        if (switchTheServer) {
-            player = [Player otherPlayer:player];
-        }
-        switchTheServer = !switchTheServer;
+        player = [Player otherPlayer:player];
     }
     return tieBreakerScore;
 }

@@ -19,12 +19,12 @@
 
 -(BOOL) haveAWinner
 {
-    return self.player1Score >= 7 || (self.player2Score >= 7  && abs(self.player1Score - self.player2Score >=2));
+    return (self.player1Score >= 7 || self.player2Score >= 7)  && abs(self.player1Score - self.player2Score) >= 2;
 }
 
 -(NSString *) description
 {
-    return [NSString stringWithFormat:@"\n\n(Tie Breaker %d - %d)\n\n", self.player1Score, self.player2Score];
+    return [NSString stringWithFormat:@"(Tie Breaker %d - %d)", self.player1Score, self.player2Score];
 }
 
 @end

@@ -8,10 +8,7 @@
 
 #import "Set.h"
 #import "SetScore.h"
-#import "PointScore.h"
-#import "GameScore.h"
 #import "Game.h"
-#import "Player.h"
 #import "TieBreaker.h"
 
 @implementation Set

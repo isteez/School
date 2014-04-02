@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64F79814-A8A3-4D0D-81B4-EC7B2B2A439F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>15Puzzle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E509B042-DB6C-4D30-A203-8D5FCFE051AB</key>
+		<string>https://github.com/isteez/School.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CS 470/Project 2/15Puzzle/15Puzzle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E509B042-DB6C-4D30-A203-8D5FCFE051AB</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/isteez/School.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E509B042-DB6C-4D30-A203-8D5FCFE051AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E509B042-DB6C-4D30-A203-8D5FCFE051AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>School</string>
+		</dict>
+	</array>
+</dict>
+</plist>

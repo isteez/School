@@ -7,7 +7,6 @@
 //
 
 #import "PointScore.h"
-#import "Player.h"
 
 @implementation PointScore
 

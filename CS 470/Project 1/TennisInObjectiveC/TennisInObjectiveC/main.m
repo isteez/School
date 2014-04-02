@@ -10,12 +10,7 @@
 
 #import "AppDelegate.h"
 #import "Player.h"
-#import "Game.h"
-#import "GameScore.h"
 #import "Match.h"
-#import "Matchscore.h"
-#import "SetScore.h"
-#import "Set.h"
 
 int main(int argc, char * argv[])
 {

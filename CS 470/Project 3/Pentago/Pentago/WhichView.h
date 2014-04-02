@@ -1,0 +1,4 @@
+enum {
+    theGridView,
+    theView
+};

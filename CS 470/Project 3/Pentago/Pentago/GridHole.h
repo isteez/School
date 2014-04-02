@@ -1,0 +1,4 @@
+enum {
+    empty, 
+    filled
+};
